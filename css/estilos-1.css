@@ -1,1 +1,55 @@
+    /* Pueba de repaso general 14 abril 2025 */
+    /* Estilos generales */
+* {
+  margin: 0; /* Elimina el margen predeterminado de todos los elementos */
+  padding: 0; /* Elimina el padding predeterminado */
+  box-sizing: border-box; /* Hace que el padding y border se incluyan dentro del ancho/alto total */
+  /* Cuando no se usa border-box, el ancho y alto solo incluyen el contenido. El padding y el borde
+   se suman por fuera. Incluye padding y borde dentro del ancho/alto total */
 
+
+}
+    /* barra de navegacion */
+
+
+body{
+  margin-top: 140px;
+}
+
+nav {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+
+line-height: 40px;
+background-color: brown;
+color: azure;
+text-align: center;
+}
+
+.contenedor {
+  min-height: 100vh;  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* tambien me sirve grid-template-columns: repeat(4, 1fr) */
+  gap: 10px; /* deja espacio entre las columnas. */
+  padding: 20px;
+}
+.columnas {
+  background-color: darksalmon;
+  border: 20px groove grey;
+  padding: 10px;
+}
+
+footer{
+    background-color: black;
+  color: azure;
+}
+div {
+  background-color: bisque;
+
+}
+
+a{
+  margin-right: 77px;
+}
